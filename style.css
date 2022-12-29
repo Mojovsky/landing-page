@@ -1,0 +1,39 @@
+body {
+    background-color: #0E0E0E;
+    margin: 0 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    padding: 0 200px;
+}
+
+/* Section containers */
+    
+.top-section {
+    background-color: #1F2937;
+}
+
+.info-section {
+    background-color: #fff;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.sign-up-section {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+/* Top section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
