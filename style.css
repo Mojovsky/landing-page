@@ -54,7 +54,7 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 20px;
+    gap: 25px;
     padding: 10px 0px;
 
 }
@@ -144,4 +144,49 @@ h2 {
 .info-image-description p{
     width: 164px;
     text-align: center;
+}
+
+/* Quote Section */
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 60px 100px 0px 100px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 100px 60px 100px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+/* Sign Up Section */
+
+.sign-up-container {
+    display: flex;
+    justify-content: space-around;
+    border: solid #3B82F6;
+    border-radius: 8px;
+    background-color: #3B82F6;
+    padding: 15px 50px;
+    margin: 75px 0px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    align-self: center;
+    border: #E5E7EB solid 2px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #E5E7EB;
 }
